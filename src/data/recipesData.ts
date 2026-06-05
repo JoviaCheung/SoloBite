@@ -106,7 +106,7 @@ export const recipesData: Recipe[] = [
     category: '晚餐',
     time: 20,
     calories: 400,
-    image: 'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&q=80',
+    image: '/一人食🍝番茄鸡蛋焖荞麦面🍅_2_佳饭饭女士_来自小红书网页版.jpg',
     ingredients: ['藜麦面', '鸡蛋', '番茄', '菠菜', '橄榄油'],
     steps: ['藜麦面按包装说明煮熟', '番茄去皮切块，鸡蛋炒散', '锅中放少许油，炒番茄出汁', '加入菠菜和藜麦面翻炒', '最后加入鸡蛋翻炒均匀']
   },
@@ -116,7 +116,7 @@ export const recipesData: Recipe[] = [
     category: '万能',
     time: 15,
     calories: 280,
-    image: 'https://images.unsplash.com/photo-1551248429-40975aa4de74?w=600&q=80',
+    image: '/虾仁牛油果塔塔.jpg',
     ingredients: ['虾仁', '牛油果', '柠檬', '黄瓜', '圣女果'],
     steps: ['虾仁煮熟后去壳切丁', '牛油果去皮切块', '黄瓜切丁，圣女果对半切开', '所有食材混合', '挤入柠檬汁，少许盐调味']
   },
@@ -161,16 +161,6 @@ export const recipesData: Recipe[] = [
     steps: ['三文鱼切大块，用盐和胡椒腌制', '西葫芦、彩椒切块，蘑菇切片', '将蔬菜和三文鱼交替穿在竹签上', '烤箱200度烤15分钟', '中途翻面一次']
   },
   {
-    id: '16',
-    title: '黄瓜酸奶冷汤',
-    category: '万能',
-    time: 10,
-    calories: 120,
-    image: 'https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=600&q=80',
-    ingredients: ['黄瓜', '希腊酸奶', '薄荷', '蒜', '橄榄油'],
-    steps: ['黄瓜去皮切块', '加入希腊酸奶、薄荷叶和蒜', '用搅拌机打成糊状', '加少许橄榄油和盐调味', '冷藏后食用更佳']
-  },
-  {
     id: '17',
     title: '番茄马铃薯沙拉',
     category: '午餐',
@@ -209,16 +199,6 @@ export const recipesData: Recipe[] = [
     image: 'https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?w=600&q=80',
     ingredients: ['荞麦面', '鸡胸肉', '黄瓜', '胡萝卜', '芝麻'],
     steps: ['鸡胸肉煮熟撕成细丝', '荞麦面煮熟过冷水', '黄瓜胡萝卜切丝', '面条铺碗底，放上鸡丝和蔬菜', '撒芝麻，淋酱油和醋']
-  },
-  {
-    id: '21',
-    title: '牛油果鸡蛋堡',
-    category: '早餐',
-    time: 12,
-    calories: 310,
-    image: 'https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&q=80',
-    ingredients: ['全麦吐司', '牛油果', '鸡蛋', '番茄', '生菜'],
-    steps: ['全麦吐司烤至微黄', '鸡蛋煮熟切片，牛油果切片', '番茄切片，生菜洗净', '吐司上依次放生菜、鸡蛋、番茄、牛油果', '盖上另一片吐司']
   },
   {
     id: '22',
@@ -300,14 +280,4 @@ export const recipesData: Recipe[] = [
     ingredients: ['牛油果', '金枪鱼', '生菜', '玉米粒', '圣女果'],
     steps: ['生菜洗净铺在碗底', '金枪鱼罐头沥水', '牛油果切片，圣女果对半切开', '碗中放入金枪鱼和牛油果', '撒上玉米粒和圣女果']
   },
-  {
-    id: '30',
-    title: '燕麦鸡肉粥',
-    category: '早餐',
-    time: 25,
-    calories: 320,
-    image: 'https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=600&q=80',
-    ingredients: ['燕麦', '鸡胸肉', '菠菜', '胡萝卜', '葱花'],
-    steps: ['鸡胸肉切小丁，胡萝卜切碎', '锅中加水煮开，放入燕麦', '加入鸡肉丁和胡萝卜煮15分钟', '菠菜焯水后切碎', '粥盛出，撒上菠菜和葱花']
-  }
 ]
