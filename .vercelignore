@@ -1,5 +1,7 @@
 node_modules
+build
 dist
+.git
 .trae
-.vercel
-.DS_Store
+.log
+.figma

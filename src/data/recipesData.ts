@@ -102,11 +102,11 @@ export const recipesData: Recipe[] = [
   },
   {
     id: '12',
-    title: '西兰花鸡肉炒饭',
+    title: '西兰花鸡胸肉炒饭',
     category: '晚餐',
     time: 20,
     calories: 380,
-    image: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=600&q=80',
+    image: '/西兰花鸡胸肉炒饭.jpg',
     ingredients: ['鸡胸肉', '西兰花', '米饭', '鸡蛋', '葱花'],
     steps: ['鸡胸肉切丁，西兰花切小朵', '鸡蛋打散炒熟盛出', '锅中加油，先炒鸡肉至变色', '加入米饭和西兰花翻炒', '最后加入鸡蛋和葱花炒匀']
   },
@@ -116,7 +116,7 @@ export const recipesData: Recipe[] = [
     category: '午餐',
     time: 15,
     calories: 300,
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80',
+    image: '/生菜包鸡肉卷.jpg',
     ingredients: ['鸡胸肉', '生菜', '胡萝卜', '黄瓜', '紫甘蓝'],
     steps: ['鸡胸肉煮熟后撕成细丝', '胡萝卜黄瓜紫甘蓝切丝', '生菜叶洗净沥干', '用生菜叶包裹鸡肉丝和蔬菜丝', '蘸泰式甜辣酱食用']
   },
@@ -136,17 +136,17 @@ export const recipesData: Recipe[] = [
     category: '晚餐',
     time: 20,
     calories: 290,
-    image: 'https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80',
+    image: '/三文鱼蔬菜串.jpg',
     ingredients: ['三文鱼', '西葫芦', '彩椒', '蘑菇'],
     steps: ['三文鱼切大块，用盐和胡椒腌制', '西葫芦、彩椒切块，蘑菇切片', '将蔬菜和三文鱼交替穿在竹签上', '烤箱200度烤15分钟', '中途翻面一次']
   },
   {
     id: '17',
-    title: '番茄马铃薯沙拉',
+    title: '生菜土豆泥沙拉',
     category: '午餐',
     time: 25,
     calories: 260,
-    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80',
+    image: '/生菜土豆泥沙拉.jpg',
     ingredients: ['马铃薯', '番茄', '鸡蛋', '黄瓜', '沙拉酱'],
     steps: ['马铃薯和鸡蛋分别煮熟', '马铃薯切丁，鸡蛋切块', '番茄黄瓜切块', '所有食材放入碗中', '加入低脂沙拉酱拌匀']
   },
@@ -156,7 +156,7 @@ export const recipesData: Recipe[] = [
     category: '早餐',
     time: 20,
     calories: 240,
-    image: 'https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=600&q=80',
+    image: '/燕麦南瓜饼.jpg',
     ingredients: ['燕麦', '南瓜', '鸡蛋', '牛奶', '肉桂粉'],
     steps: ['南瓜蒸熟压成泥', '加入燕麦、鸡蛋和牛奶搅拌', '撒少许肉桂粉调味', '平底锅小火煎至两面金黄', '配酸奶食用更佳']
   },
@@ -166,7 +166,7 @@ export const recipesData: Recipe[] = [
     category: '万能',
     time: 30,
     calories: 200,
-    image: 'https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=600&q=80',
+    image: '/烤南瓜沙拉.jpg',
     ingredients: ['南瓜', '菠菜', '核桃', '葡萄干', '橄榄油'],
     steps: ['南瓜去皮切块，刷少许油烤20分钟', '菠菜洗净铺在碗底', '放上烤好的南瓜块', '撒核桃碎和葡萄干', '淋橄榄油和柠檬汁']
   },
@@ -192,7 +192,7 @@ export const recipesData: Recipe[] = [
   },
   {
     id: '26',
-    title: '菠菜香蕉smoothie碗',
+    title: '莓果香蕉smoothie',
     category: '早餐',
     time: 5,
     calories: 260,
@@ -209,15 +209,5 @@ export const recipesData: Recipe[] = [
     image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&q=80',
     ingredients: ['全麦吐司', '鸡蛋', '生菜', '番茄', '低脂蛋黄酱'],
     steps: ['鸡蛋煮熟捣碎', '加入低脂蛋黄酱和少许盐', '全麦吐司烤至微黄', '吐司上铺生菜和番茄片', '抹上鸡蛋酱，盖上吐司对切']
-  },
-  {
-    id: '29',
-    title: '牛油果金枪鱼沙拉',
-    category: '午餐',
-    time: 10,
-    calories: 320,
-    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80',
-    ingredients: ['牛油果', '金枪鱼', '生菜', '玉米粒', '圣女果'],
-    steps: ['生菜洗净铺在碗底', '金枪鱼罐头沥水', '牛油果切片，圣女果对半切开', '碗中放入金枪鱼和牛油果', '撒上玉米粒和圣女果']
   },
 ]
