@@ -31,16 +31,6 @@ export const recipesData: Recipe[] = [
     steps: ['鸡胸肉用盐和黑胡椒腌制后煎熟切块', '牛油果去皮切块，生菜洗净撕碎', '小番茄对半切开', '所有食材放入碗中，撒上玉米粒，淋柠檬汁']
   },
   {
-    id: '3',
-    title: '藜麦牛油果能量碗',
-    category: '午餐',
-    time: 20,
-    calories: 420,
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80',
-    ingredients: ['藜麦', '牛油果', '菠菜', '鹰嘴豆', '圣女果'],
-    steps: ['藜麦洗净煮15分钟至软糯', '菠菜焯水后过冷水沥干', '圣女果对半切开，牛油果切片', '碗中铺菠菜，放上藜麦、牛油果和圣女果', '撒上鹰嘴豆即可']
-  },
-  {
     id: '4',
     title: '经典燕麦水果碗',
     category: '早餐',
@@ -49,16 +39,6 @@ export const recipesData: Recipe[] = [
     image: 'https://images.unsplash.com/photo-1517673400267-0251440c45dc?w=600&q=80',
     ingredients: ['燕麦', '蓝莓', '草莓', '香蕉', '坚果'],
     steps: ['即食燕麦用牛奶或水冲泡', '铺上一层新鲜蓝莓和草莓', '撒上切片香蕉和碎坚果', '可加少许蜂蜜调味']
-  },
-  {
-    id: '5',
-    title: '日式荞麦凉面',
-    category: '午餐',
-    time: 15,
-    calories: 280,
-    image: 'https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?w=600&q=80',
-    ingredients: ['荞麦面', '黄瓜', '葱花', '海苔', '酱油'],
-    steps: ['荞麦面煮熟后过冷水沥干', '黄瓜切丝，葱花切碎', '面放碗中，摆上黄瓜丝和葱花', '撒海苔丝，蘸酱油食用']
   },
   {
     id: '6',
@@ -181,26 +161,6 @@ export const recipesData: Recipe[] = [
     steps: ['南瓜蒸熟压成泥', '加入燕麦、鸡蛋和牛奶搅拌', '撒少许肉桂粉调味', '平底锅小火煎至两面金黄', '配酸奶食用更佳']
   },
   {
-    id: '19',
-    title: '藜麦蔬菜烤蛋',
-    category: '早餐',
-    time: 18,
-    calories: 280,
-    image: 'https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600&q=80',
-    ingredients: ['藜麦', '鸡蛋', '菠菜', '番茄', '芝士'],
-    steps: ['藜麦煮熟铺在烤盘底', '菠菜焯水后切碎，番茄切片', '在藜麦上放菠菜和番茄', '打入鸡蛋，撒上碎芝士', '烤箱180度烤12分钟']
-  },
-  {
-    id: '20',
-    title: '凉拌鸡丝荞麦面',
-    category: '午餐',
-    time: 20,
-    calories: 360,
-    image: 'https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?w=600&q=80',
-    ingredients: ['荞麦面', '鸡胸肉', '黄瓜', '胡萝卜', '芝麻'],
-    steps: ['鸡胸肉煮熟撕成细丝', '荞麦面煮熟过冷水', '黄瓜胡萝卜切丝', '面条铺碗底，放上鸡丝和蔬菜', '撒芝麻，淋酱油和醋']
-  },
-  {
     id: '22',
     title: '烤南瓜沙拉',
     category: '万能',
@@ -219,16 +179,6 @@ export const recipesData: Recipe[] = [
     image: 'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&q=80',
     ingredients: ['意面', '虾仁', '番茄', '蒜', '橄榄油'],
     steps: ['意面按包装煮熟', '番茄去皮切块，虾仁焯水', '锅中放橄榄油，蒜末爆香', '加入番茄翻炒出汁', '放入虾仁和意面炒匀']
-  },
-  {
-    id: '24',
-    title: '紫甘蓝苹果沙拉',
-    category: '万能',
-    time: 10,
-    calories: 180,
-    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&q=80',
-    ingredients: ['紫甘蓝', '苹果', '胡萝卜', '葡萄干', '沙拉酱'],
-    steps: ['紫甘蓝切丝泡冰水使其爽脆', '苹果去皮切丝，胡萝卜擦丝', '沥干紫甘蓝，与苹果丝胡萝卜丝混合', '撒上葡萄干', '淋入低脂沙拉酱拌匀']
   },
   {
     id: '25',
@@ -259,16 +209,6 @@ export const recipesData: Recipe[] = [
     image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&q=80',
     ingredients: ['全麦吐司', '鸡蛋', '生菜', '番茄', '低脂蛋黄酱'],
     steps: ['鸡蛋煮熟捣碎', '加入低脂蛋黄酱和少许盐', '全麦吐司烤至微黄', '吐司上铺生菜和番茄片', '抹上鸡蛋酱，盖上吐司对切']
-  },
-  {
-    id: '28',
-    title: '蔬菜满满鸡肉串',
-    category: '晚餐',
-    time: 25,
-    calories: 340,
-    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80',
-    ingredients: ['鸡胸肉', '彩椒', '洋葱', '西葫芦', '蘑菇'],
-    steps: ['鸡胸肉切大块，用盐和胡椒腌制', '彩椒、洋葱、西葫芦切块', '将蔬菜和鸡肉交替穿串', '刷少许油，烤箱200度烤18分钟', '中途翻面']
   },
   {
     id: '29',
